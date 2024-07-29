@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/reset.css" type="text/css" />
+    <link rel="stylesheet" href="style/index.css" type="text/css" />
+  </head>
+  <body>
+    <div class="menu--close"></div>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="logo">
+            <img src="images/logo.svg" alt="TealuxE" />
+          </a>
+          <nav class="menu">
+            <!-- ul.menu__list>li.menu__item*5>a.menu__link[href=#] -->
+            <button class="menu__btn">
+              <span></span><span></span><span></span><span></span>
+            </button>
+            <ul class="menu__list">
+              <li class="menu__close">
+                <button class="menu__close-btn">
+                  <img src="images/close.svg" alt="" />
+                </button>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Черный</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Зеленый</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Белый</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Улун</a>
+              </li>
+              <li class="menu__item m0">
+                <a href="#" class="menu__link">Пуэр</a>
+              </li>
+              <li class="mobile-nav">
+                <ul class="mobile-menu">
+                  <li class="mobile-menu__item">
+                    <a href="#" class="mobile-menu__link"> Связаться с нами </a>
+                  </li>
+                  <li class="mobile-menu__item">
+                    <a href="#" class="mobile-menu__link"> Наш блог </a>
+                  </li>
+                  <li class="mobile-menu__item">
+                    <a href="#" class="mobile-menu__link">
+                      Доставка
+                    </a>
+                  </li>
+                </ul>
+                <ul class="mobile-actions">
+                  <li class="mobile-actions__item">
+                    <a href="#" class="mobile-actions__link">
+                      <img src="images/cart.svg" alt="" />
+                    </a>
+                  </li>
+                  <li class="mobile-actions__item">
+                    <a href="#" class="mobile-actions__link">
+                      <img src="images/user.svg" alt="" />
+                    </a>
+                  </li>
+                  <li class="mobile-actions__item">
+                    <a href="#" class="mobile-actions__link">
+                      <img src="images/search.svg" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <ul class="user-actions">
+            <li class="user-actions__item">
+              <a href="#" class="user-actions__link">
+                <img src="images/cart.svg" alt="" />
+              </a>
+            </li>
+            <li class="user-actions__item">
+              <a href="#" class="user-actions__link">
+                <img src="images/user.svg" alt="" />
+              </a>
+            </li>
+            <li class="user-actions__item">
+              <a href="#" class="user-actions__link">
+                <img src="images/search.svg" alt="" />
+              </a>
+              <!-- <search>
+                <form>
+                  <input type="search" />
+                  <button type="submit"></button>
+                </form>
+              </search> -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="top">
+        <div class="container">
+          <div class="top__inner">
+            <h1 class="top__title">
+              Чашка чая – минутка спокойствия в жизненном хаосе
+            </h1>
+            <p class="top__text">
+              Широкий выбор высококачественного чая со всего мира, 
+              тщательно отобранного чайными экспертами.
+            </p>
+          </div>
+        </div>
+      </section>
+      <blockquote class="blockquote">
+        <p class="blockquote__text">
+          "Чай – это не просто напиток, это образ жизни и способ общения с близкими."
+        </p>
+      </blockquote>
+      <section class="assortment">
+        <div class="container">
+          <h2 class="assortment__title">Изучите наши коллекции</h2>
+          <ul class="assortment__list">
+            <li class="assortment__item">
+              <img src="images/black.png" alt="Black" class="assortment__img" />
+              <p class="assortment__name">Черный</p>
+            </li>
+            <li class="assortment__item">
+              <img src="images/green.png" alt="Green" class="assortment__img" />
+              <p class="assortment__name">Зеленый</p>
+            </li>
+            <li class="assortment__item">
+              <img src="images/white.png" alt="White" class="assortment__img" />
+              <p class="assortment__name">Белый</p>
+            </li>
+            <li class="assortment__item">
+              <img
+                src="images/oolong.png"
+                alt="Oolong"
+                class="assortment__img"
+              />
+              <p class="assortment__name">Улун</p>
+            </li>
+            <li class="assortment__item">
+              <img
+                src="images/pu-erh.png"
+                alt="Pu-erh"
+                class="assortment__img"
+              />
+              <p class="assortment__name">Пуэр</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <h2 class="reviews__title">Что говорят наши Клиенты</h2>
+          <ul class="reviews__list">
+            <li class="reviews__item">
+              <blockquote>
+                <p class="reviews__text">
+                  "Как любитель чая, я пробовал чаи со всего мира.
+                  мир, но этот чайный магазин действительно выделяется. Их чаи
+                  высочайшее качество и разнообразие впечатляют. мне нравится как
+                  предлагают редкие и уникальные чаи, которые трудно найти
+                  в другом месте. Это определенно чайный магазин, который понравится каждому любителю чая.
+                  должен посетить."
+                </p>
+                <cite class="reviews__name">Алиса</cite>
+              </blockquote>
+            </li>
+            <li class="reviews__item">
+              <blockquote>
+                <p class="reviews__text">
+                  "В этом чайном магазине я всегда могу найти все, что мне нужно. Их
+                   выбор непревзойденный, а качество чая отличное.
+                   исключительный."
+                </p>
+                <cite class="reviews__name">Григорий</cite>
+              </blockquote>
+            </li>
+            <li class="reviews__item">
+              <blockquote>
+                <p class="reviews__text">
+                  "Если вы любитель чая, вам обязательно стоит посетить этот чайный магазин.
+                  Выбор огромен, а качество превосходное. я гарантирую
+                  вы не будете разочарованы."
+                </p>
+                <cite class="reviews__name">Дантес</cite>
+              </blockquote>
+            </li>
+            <li class="reviews__item">
+              <blockquote>
+                <p class="reviews__text">
+                  "Я не большой любитель чая, но этот чайный магазин преобразился.
+                  мне. Я очень рекомендую этот чайный магазин всем, кто ищет
+                  чай высокого качества."
+                </p>
+                <cite class="reviews__name">Евгений</cite>
+              </blockquote>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="main-blog">
+        <div class="container">
+          <h2 class="main-blog__title">Наш чайный блог</h2>
+          <ul class="main-blog__list">
+            <li class="main-blog__item">
+              <img src="images/blog-1.png" alt="" class="main-blog__item-img" />
+              <div class="main-blog__item-content">
+                <h3 class="main-blog__item-title">
+                  Путешествие во времени за чаем: забавные моменты со всего мира
+                </h3>
+                <a href="" class="main-blog__item-author"
+                  >от Робинзона Крузо
+                </a>
+                <a href="" class="main-blog__item-link"
+                  ><span>Читать</span><img src="images/icon-next.svg" alt=""
+                /></a>
+              </div>
+            </li>
+            <li class="main-blog__item">
+              <img src="images/blog-2.png" alt="" class="main-blog__item-img" />
+              <div class="main-blog__item-content">
+                <h3 class="main-blog__item-title">
+                  Чайные сказки: веселые истории от любителей чая
+                </h3>
+                <a href="" class="main-blog__item-author">
+                  от Григория</a
+                >
+                <a href="" class="main-blog__item-link"
+                  ><span>Читать</span><img src="images/icon-next.svg" alt=""
+                /></a>
+              </div>
+            </li>
+            <li class="main-blog__item">
+              <img src="images/blog-3.png" alt="" class="main-blog__item-img" />
+              <div class="main-blog__item-content">
+                <h3 class="main-blog__item-title">
+                  Роль чая в психическом здоровье
+                </h3>
+                <a href="" class="main-blog__item-author"> от Банан</a>
+                <a href="" class="main-blog__item-link"
+                  ><span>Читать</span><img src="images/icon-next.svg" alt=""
+                /></a>
+              </div>
+            </li>
+            <li class="main-blog__item">
+              <img src="images/blog-4.png" alt="" class="main-blog__item-img" />
+              <div class="main-blog__item-content">
+                <h3 class="main-blog__item-title">
+                  Чай и кофеин: влияние на мозг и поведение
+                </h3>
+                <a href="" class="main-blog__item-author">
+                  от Австровитянин</a
+                >
+                <a href="" class="main-blog__item-link"
+                  ><span>Читать</span><img src="images/icon-next.svg" alt=""
+                /></a>
+              </div>
+            </li>
+          </ul>
+          <div class="main-blog__link">
+            <a href="#">Посмотреть все</a>
+          </div>
+        </div>
+      </section>
+      <section class="mailing-list">
+        <div class="container">
+          <h2 class="mailing-list__title"> Хотите знать больше?</h2>
+          <div class="mailing-list__inner">
+            <p class="mailing-list__text">
+              Подпишитесь на нашу рассылку и будьте в курсе последних новостей,
+              акции и эксклюзивные предложения от нашего чайного магазина. Будь первым
+              чтобы узнать о новых поступлениях чая, сезонных блендах и специальных
+              скидки. Не упустите потрясающие чайные привилегии — зарегистрируйтесь сегодня!
+            </p>
+            <form action="#" class="mailing-list__form">
+              <div class="mailing-list__form__top">
+                <input
+                  type="email"
+                  class="mailing-list__email"
+                  placeholder="name@email.com"
+                />
+                <button class="mailing-list__btn" type="submit">Присоедениться</button>
+              </div>
+
+              <label for="mailing-list">
+                <input
+                  id="mailing-list"
+                  type="checkbox"
+                  class="mailing-list__checkbox"
+                />
+                <span class="mailing-list__checkbox-style"> </span>
+                <p class="mailing-list__checkbox__text">
+                  Мы серьезно относимся к вашей конфиденциальности и стремимся защитить
+                  ваша личная информация. Подписавшись на нашу рассылку,
+                  вы соглашаетесь получать от нас периодические электронные письма о
+                  наши продукты, рекламные акции и другая информация, связанная с чаем.
+                </p>
+              </label>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="prioritise">
+        <div class="container">
+          <h2 class="prioritise__title">Мы расставляем приоритеты</h2>
+          <ul class="prioritise__list">
+            <li class="prioritise__item">
+              <h4 class="prioritise__item-title">Одиночные садовые чаи</h4>
+              <p class="prioritise__item-text">Полная прозрачность</p>
+              <img
+                src="images/prioritise-1.svg"
+                alt=""
+                class="prioritise__item-img"
+              />
+            </li>
+            <li class="prioritise__item">
+              <h4 class="prioritise__item-title">Только листовой чай</h4>
+              <p class="prioritise__item-text">Лучший опыт питья</p>
+              <img
+                src="images/prioritise-2.svg"
+                alt=""
+                class="prioritise__item-img"
+              />
+            </li>
+            <li class="prioritise__item">
+              <h4 class="prioritise__item-title">Служба поддержки</h4>
+              <p class="prioritise__item-text">Реальные люди</p>
+              <img
+                src="images/prioritise-3.svg"
+                alt=""
+                class="prioritise__item-img"
+              />
+            </li>
+            <li class="prioritise__item">
+              <h4 class="prioritise__item-title">Быстрая доставка</h4>
+              <p class="prioritise__item-text">Экономия, Удобно, Надежно</p>
+              <img
+                src="images/prioritise-4.svg"
+                alt=""
+                class="prioritise__item-img"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__inner__left">
+            <ul class="footer__products">
+              <li class="footer__products-title">Продукты</li>
+              <li class="footer__products-item">
+                <a href="#" class="footer__products-link">Черный чай</a>
+              </li>
+              <li class="footer__products-item">
+                <a href="#" class="footer__products-link">Зеленый чай</a>
+              </li>
+              <li class="footer__products-item">
+                <a href="#" class="footer__products-link">Белый чай</a>
+              </li>
+              <li class="footer__products-item">
+                <a href="#" class="footer__products-link">Улун чай</a>
+              </li>
+              <li class="footer__products-item">
+                <a href="#" class="footer__products-link">Пуер чай</a>
+              </li>
+            </ul>
+            <ul class="footer__company">
+              <li class="footer__company-title">Компания</li>
+              <li class="footer__company-item">
+                <a href="#" class="footer__company-link">О нас</a>
+              </li>
+              <li class="footer__company-item">
+                <a href="#" class="footer__company-link">Связаться с нами</a>
+              </li>
+              <li class="footer__company-item">
+                <a href="#" class="footer__company-link">Наш блог</a>
+              </li>
+              <li class="footer__company-item">
+                <a href="#" class="footer__company-link">FAQ</a>
+              </li>
+              <li class="footer__company-item">
+                <a href="#" class="footer__company-link">Перевозка и доставка</a>
+              </li>
+              <li class="footer__company-item">
+                <a href="#" class="footer__company-link">Политика возврата</a>
+              </li>
+              <li class="footer__company-item">
+                <a href="#" class="footer__company-link">Условия использования</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__inner__right">
+            <blockquote class="footer__blockquote">
+              <p class="footer__blockquote-text">
+                “Чай – это путешествие. Он может перенести вас в новые места и открыть
+                ум к новому опыту. Пусть каждый глоток перенесет вас в мир
+                чудеса и возможности”
+              </p>
+              <cite class="footer__blockquote-author">
+                Игорь Бурундук, владелец Tealuxe
+              </cite>
+            </blockquote>
+            <div class="footer__contacts">
+              <h4 class="footer__contacts-title">Оставайтесь на связи</h4>
+              <p class="footer__contacts-text">
+                Пожалуйста, не стесняйтесь обращаться к нам по электронной почте или телефону. Мы будем
+                буду рад услышать от вас!
+              </p>
+              <div class="footer__contacts-group">
+                <div class="footer__contacts-group__top">
+                  <a class="footer__contacts-group__top-item__logo" href="#">
+                    <img src="images/logo.svg" alt=""
+                  /></a>
+                  <ul>
+                    <li class="footer__contacts-group__top-item">
+                      <a href="tel:370680123456">
+                        <img src="images/phone.svg" alt="" />
+                        <span>+7 123 456 78 90</span></a
+                      >
+                    </li>
+                    <li class="footer__contacts-group__top-item">
+                      <a href="mailto:info@tealuxe.com">
+                        <img src="images/email.svg" alt="" />
+                        <span>infotea@mail.ru</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <ul class="footer__contacts-group__bottom">
+                  <li class="footer__contacts-group__bottom-item">
+                    <a href="#"><img src="images/social-1.svg" alt="" /></a>
+                  </li>
+                  <li class="footer__contacts-group__bottom-item">
+                    <a href="#"><img src="images/social-2.svg" alt="" /></a>
+                  </li>
+                  <li class="footer__contacts-group__bottom-item">
+                    <a href="#"> <img src="images/social-3.svg" alt="" /></a>
+                  </li>
+                  <li class="footer__contacts-group__bottom-item">
+                    <a href="#"> <img src="images/social-4.svg" alt="" /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__bottom-copy">© Tealuxe, 2024</p>
+          <ul class="footer-bottom-partners">
+            <li class="footer-bottom-partners__item">
+              <img src="images/partner-1.png" alt="" />
+            </li>
+            <li class="footer-bottom-partners__item">
+              <img src="images/partner-2.png" alt="" />
+            </li>
+            <li class="footer-bottom-partners__item">
+              <img src="images/partner-3.png" alt="" />
+            </li>
+            <li class="footer-bottom-partners__item">
+              <img src="images/partner-4.png" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
